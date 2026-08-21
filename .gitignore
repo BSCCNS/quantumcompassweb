@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs & temp files
+*.log
+*.tmp
+*.bak
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies & build output (if tooling is added later)
+node_modules/
+dist/
+build/
+.cache/
+
+# Local dev servers / deploy tooling
+.vercel/
+.netlify/
+.firebase/
