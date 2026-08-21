@@ -38,3 +38,8 @@ build/
 .vercel/
 .netlify/
 .firebase/
+
+# Sub-sites deployed from their own separate repositories.
+# Not tracked here — keeps `git pull` and `git clean` from touching them.
+/interactive/
+/font/
